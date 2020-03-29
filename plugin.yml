@@ -1,0 +1,11 @@
+name: WildShop
+main: com.gmail.filoghost.wildshop.WildShop
+version: 1.0
+softdepend: [Vault, Multiverse-Core, MultiWorld, WildTowns]
+depend: [WildCommons]
+
+commands:
+   wildshop:
+      description: Main command for WildShop.
+      usage: /<command>
+      aliases: [wildshops]
